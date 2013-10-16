@@ -1,10 +1,16 @@
-// This is a basic function definition
+/**
+ * In JavaScript, functions are defined and invoked as they are in C-like
+ * languages.
+ */
+
+// define
 function sayHello(whom) {
   console.log('Hello, ' + whom + '!');
 
-  // the 'return' keyword behaves as expected
+  // The "return" keyword may be used when a function needs to return a value.
+  // (Functions are not required to return a value, however.)
   return true;
 }
 
-// This is an invokation
+// invoke
 sayHello('world');

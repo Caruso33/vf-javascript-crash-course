@@ -1,3 +1,11 @@
+/**
+ * To help manage the complexity of working asynchronously, libraries like
+ * "async" are commonly used.
+ *
+ * The following is an implementation of the concept introduced previously.
+ * This one, however, works as you'd expect:
+ */
+
 // require the async dependency
 var async = require('async');
 
@@ -19,8 +27,13 @@ var items = [1, 2, 3];
 async.eachSeries(
   items,
   takesAWhile,
+
+  // when the callback function is invoked, end the program
   function() {
     console.log('end');
   }
 );
+
+// more information on async can be found here:
+// https://github.com/caolan/async
 

@@ -1,14 +1,16 @@
+/**
+ * In JavaScript, functions (under the hood) are objects. As such, it is
+ * possible to attach arbitrary members and methods to a function the same way
+ * that you would to a "normal" object.
+ *
+ * A technique known as "memoization" exploits that trait to buffer the result
+ * of function calls for future retrieval. (Note that this is not a typo: the
+ * term is "memoization", not "memorization" as you might assume.)
+ */
+
 // Pretend that this is some some really computationally expensive hash
 // function that we would like to invoke sparingly
 function hash(value) {
-
-  /**
-   * Because functions are objects in JavaScript, a function can use the normal
-   * `this` pointer to attach arbitrary properties to itself. Exploiting this
-   * trait to cache the result of a function invokation (for future retrieval)
-   * is called "memoization". (Note that that's not a typo. It's "memoization",
-   * not "memorization".)
-   */
   if (!this.cache) {
     console.log('initial invokation');
     this.cache = 'hash-of-' + value;

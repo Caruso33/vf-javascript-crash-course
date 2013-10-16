@@ -1,3 +1,8 @@
+/**
+ * JavaScript provides a "switch" statement for occasions where one may
+ * otherwise use multiple "if" statements.
+ */
+
 var username = 'admin';
 
 // note "switch" and not "case"

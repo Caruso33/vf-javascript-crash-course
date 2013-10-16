@@ -1,3 +1,7 @@
+/**
+ * "if", "else if", and "else" behave as you may expect from C-like languages.
+ */
+
 var username = 'admin';
 
 if (username === 'admin') {

@@ -1,3 +1,7 @@
+/**
+ * The "for-in" loop may be used to iterate over the properties of an object.
+ */
+
 // create an object using the literal syntax
 var language = {
   name     : 'javascript',

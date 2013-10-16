@@ -1,3 +1,7 @@
+/**
+ * Likewise, the "while" loop will look familiar.
+ */
+
 var items = [1, 2, 3, 4, 5];
 
 // a decomposed "for" loop

@@ -1,3 +1,8 @@
+/**
+ * JavaScript implements many of the datatypes you would expect if you have
+ * experience working with other languages.
+ */
+
 // create an array of some different data types
 var items = [
   1,              // number
@@ -7,7 +12,7 @@ var items = [
   {},             // object
   undefined,      // undefined
   null,           // another weird "object"!
-  function () {}, // `function` is also a type
+  function () {}, // "function" is also a type
 ];
 
 // iterate over each element in the array, and see which type it reports to be
@@ -25,10 +30,16 @@ console.log("\nDetecting arrays:");
 console.log('typeof []: ' + typeof []);
 
 // That's quite unhelpful.
-//
+
 // To properly determine whether or not an item is an array, however, you may
 // use the Array.isArray() method
 console.log('Array.isArray([]): ' + Array.isArray([]));
 
-// Frankly, JavaScript is a real mess regarding how it identifies certain data
-// types. For more examples, see: https://www.destroyallsoftware.com/talks/wat
+// Even worse: some decisions regarding the implementation of the JavaScript
+// interpreter cause JavaScript to deliver consistently wrong results:
+console.log("\nFloating-point math: ");
+console.log('0.1 + 0.2 = ' + (0.1 + 0.2));
+
+// Frankly, JavaScript is a real mess regarding how it identifies and handles
+// certain data types. For more examples, see:
+// https://www.destroyallsoftware.com/talks/wat

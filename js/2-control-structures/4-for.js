@@ -1,3 +1,8 @@
+/**
+ * "for" loops in JavaScript are implemented as they are in other C-like
+ * languages.
+ */
+
 // create an array of items
 var items = [1, 2, 3, 4, 5];
 
