@@ -1,8 +1,7 @@
-viaForensics :: a JavaScript Crash Course
-=========================================
-This is a brief introduction to JavaScript, told through code. It is intended
-to bring programmers that are experts in other languages up-to-speed in
-JavaScript as quickly as possible.
+JavaScript Crash-Course
+=======================
+This is a crash-course on JavaScript that is intended for advanced programmers
+in other languages. Lesson files may be used as language cheat-sheets.
 
 Resources
 ---------
