@@ -4,7 +4,7 @@
  *
  * 1. variables initialized with "var" are local variables
  * 2. variables initialized without "var" are global variables
- * 3. "hosting" occurs (see MDN link below)
+ * 3. "hoisting" occurs (see MDN link below)
  */
 
 // Because foo was not declared with "var" it is a global variable. Many
@@ -33,7 +33,7 @@ function baz () {
   console.log('5. bat: ' + bat);
 
   // bar can be reassigned a local value, HOWEVER - doing so will undefine bar
-  // (4) due to hoisting:
+  // (4) due to "hoisting":
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Scope_Cheatsheet
 
   //var bar = 'new';
