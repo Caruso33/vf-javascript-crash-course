@@ -55,5 +55,5 @@ console.log('7. bar: ' + bar);
 // global variable.
 console.log('8. wut: ' + wut);
 
-// This will cause a fatal error because bat is note within the global scope
+// This will cause a fatal error because bat is not within the global scope
 //console.log(bat); 
