@@ -15,7 +15,7 @@ var departments = [
     'ext#' : '001',
   },
   {
-    'title' : 'Junior Developer',
+    'title' : 'Marketing',
     // without the quotation marks, this property would cause a fatal error
     'ext#'  : '002',
   },
